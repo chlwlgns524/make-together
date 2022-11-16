@@ -21,8 +21,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @ActiveProfiles("test")
-@AutoConfigureTestDatabase(replace = Replace.NONE)
-// I won't use the default-configured embeded H2 because I want to use my tcp-based H2
+//@AutoConfigureTestDatabase(replace = Replace.NONE) // I won't use the default-configured embeded H2 because I want to use my tcp-based H2
 @DataJpaTest
 class UserTest {
 
