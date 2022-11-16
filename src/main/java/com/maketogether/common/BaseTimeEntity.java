@@ -1,4 +1,4 @@
-package com.maketogether.entity;
+package com.maketogether.common;
 
 import java.time.LocalDateTime;
 import javax.persistence.EntityListeners;
